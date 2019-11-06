@@ -1,0 +1,9 @@
+procedure  guess
+begin
+	a := 10;
+	if ( a != 11 ) then
+		a := a * 2;
+	else
+		a := 12 + a;
+	endif;
+end;

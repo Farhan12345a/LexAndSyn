@@ -1,0 +1,6 @@
+procedure sum 
+begin
+	x := 10;
+	y := x - 3
+	sum :=  x + y;
+end ;

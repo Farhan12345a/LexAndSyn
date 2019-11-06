@@ -1,0 +1,14 @@
+procedure if2
+begin
+a := 10;
+b := 12;
+c := 14;
+if ( a != b)  then
+	if ( a = c )  then
+		a := b;
+	endif;
+else
+	a := c;
+	b := 2*c;
+endif;
+end;

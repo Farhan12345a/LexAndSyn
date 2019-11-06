@@ -1,0 +1,10 @@
+procedure  guess3
+begin
+	a := 10;
+	if ( a != 11 ) then
+		a := a * 2;
+	else
+		a := 12 + a;
+	
+b := 9;
+end;
